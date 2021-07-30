@@ -9,6 +9,7 @@
     "test:ci": "jest --ci"
   },
   "dependencies": {
+    "bootstrap": "^5.0.2",
     "next": "latest",
     "npm": "^7.20.3",
     "react": "^17.0.2",

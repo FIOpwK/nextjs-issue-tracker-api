@@ -1,14 +1,23 @@
-import Link from 'next/link'
+import Link from "next/link";
 
-function Home() { 
-   return (
-<div class="container">
+export default function Home() {
+  return (
+    <div class="container">
+      <h3> Home </h3>
+      <nav class="navbar navbar-dark bg-dark">
+        <Link href="/home">
+          
+          <a> Home </a>
+        </Link>
 
-	<a href="/issues"> Go to issues</a>
-	<a href="#"> Home</a>
-</div>
-	)
- }
-
-
-export default Home
+        <Link href="/issues">
+     
+          <a> Issues </a>
+        </Link>
+      </nav>
+      <div>
+        <button class="btn btn-danger"> Open New Issue </button>
+      </div>
+    </div>
+  );
+}
