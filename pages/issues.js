@@ -1,12 +1,12 @@
 function Issue(id, desc) {
 return (
-<div class="container">
+<div className="container">
     <h2>Issues</h2>
 
-    <div class="table-responsive">
-    <table class="table table-dark">
+    <div className="table-responsive">
+    <table className="table table-dark">
   <thead>
-    <tr class="table-active">
+    <tr className="table-active">
       <th scope="col">ID</th>
       <th scope="col">Product</th>
       <th scope="col">Last Modified</th>

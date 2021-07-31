@@ -2,29 +2,36 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div class="container">
+    <div className="container">
       <h3> API Issue Tracker </h3>
-      <nav class="navbar sticky-top navbar-dark bg-dark">
-        <div class="container-fluid">
+      <nav className="navbar sticky-top navbar-dark bg-dark">
+        <div className="container-fluid">
           <Link href="/home">
-            <a class="navbar-brand"> Home </a>
+            <a className="navbar-brand"> Home </a>
           </Link>
 
           <Link href="/issues">
-            <a class="navbar-brand"> Issues </a>
+            <a className="navbar-brand"> Issues </a>
           </Link>
           <Link href="#">
-            <a class="navbar-brand"> Tracker </a>
+            <a className="navbar-brand"> Tracker </a>
           </Link>
 
           <Link href="#">
-            <a class="navbar-brand"> News </a>
+            <a className="navbar-brand"> News </a>
           </Link>
         </div>
       </nav>
-	  
-      <div>
-        <button class="btn btn-danger"> Open New Issue </button>
+
+      <div className="gap-3" style={{margin: '5px'}}>
+        <button className="btn btn-danger"> Open New Issue </button>
+      </div>
+      <div className="ratio ratio-1x1">
+        <iframe
+          src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
+          title="YouTube video"
+          allowFullScreen
+        ></iframe>
       </div>
     </div>
   );
