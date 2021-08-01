@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering content for the /home route page renders navigation links and  create new issue button 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="container"
+  >
+    <h3>
+       API Issue Tracker 
+    </h3>
+    <nav
+      className="navbar sticky-top navbar-dark bg-dark"
+    >
+      <div
+        className="container-fluid"
+      >
+        <a
+          className="navbar-brand"
+          href="/home"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+           Home 
+        </a>
+        <a
+          className="navbar-brand"
+          href="/issues"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+           Issues 
+        </a>
+        <a
+          className="navbar-brand"
+          href="/#"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+           Tracker 
+        </a>
+        <a
+          className="navbar-brand"
+          href="/#"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+           News 
+        </a>
+        <a
+          className="navbar-brand"
+          href="/about"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+           About 
+        </a>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="gap-3"
+    style={
+      Object {
+        "margin": "5px",
+      }
+    }
+  >
+    <button
+      className="btn btn-danger"
+    >
+       Open New Issue 
+    </button>
+  </div>
+</div>
+`;
