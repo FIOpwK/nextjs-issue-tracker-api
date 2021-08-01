@@ -1,6 +1,11 @@
-function Issue(id, desc) {
+import Home from "./home"
+
+
+function Issue() {
 return (
 <div className="container">
+    <Home />
+
     <h2>Issues</h2>
 
     <div className="table-responsive">
@@ -9,6 +14,7 @@ return (
     <tr className="table-active">
       <th scope="col">ID</th>
       <th scope="col">Product</th>
+      <th scope="col">Summary</th>
       <th scope="col">Last Modified</th>
       <th scope="col">Status</th>
     </tr>
