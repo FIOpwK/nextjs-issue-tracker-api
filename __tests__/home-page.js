@@ -1,19 +1,17 @@
-import React from 'react'
-import { render } from '@testing-library/react'
-import Home from '../pages/home'
+// import core dependencies
+import React from "react";
+import renderer from "react-test-renderer";
+import Home from "../pages/home";
 
-describe('Rendering content for the /home route', () => {
-    beforeAll(() => {
-        render(<Home url="/home"/>)
-    })
+describe("Rendering content for the /home route", () => {
+  beforeAll(() => {
+    console.log("running...");
+  });
 
-    test('page renders deploy links', () => {
-        
-        expect('Home').toHaveTextContent
-      })
+  afterAll(() => [console.log("stopping...")]);
 
-      test('page renders deploy text', () => {
-          expect('API Issue Tracker').toBeInTheDocument()
-
-      })
-})
+  test("page renders navigation links and  create new issue button", () => {
+    const homePageComponent = renderer.create(<Home />).toJSON();
+    expect(homePageComponent).toMatchSnapshot();
+  });
+});

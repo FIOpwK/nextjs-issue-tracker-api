@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.0.2",
+    "msw": "^0.33.2",
     "next": "latest",
     "npm": "^7.20.3",
     "react": "^17.0.2",
