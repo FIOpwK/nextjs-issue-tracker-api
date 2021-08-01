@@ -6,6 +6,8 @@ The API issue tracker is built in Next.js.
 
 ## How to Use
 
-Quickly using [Link](https://github.com/FIOpwK/nextjs-issue-tracker-api#readme)!
+Quickly using [Read Me](https://github.com/FIOpwK/nextjs-issue-tracker-api#readme)!
+
+Tracking changes [Trello Board](https://trello.com/b/Q1XSaawq/bug-tracker-api)!
 
 %TODO%
