@@ -1,23 +1,11 @@
-# Next.js + Jest
+# Next.js + Jest Issue Tracker API
 
-This example shows how to configure Jest to work with Next.js.
+This application is a work in progress. It shows how to develope an application while working with Jest and Next.js.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules, and TypeScript!
+The API issue tracker is built in Next.js.
 
 ## How to Use
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
+Quickly using [Link](https://github.com/FIOpwK/nextjs-issue-tracker-api#readme)!
 
-In your terminal, run the following command:
-
-```bash
-npx create-next-app --example with-jest with-jest-app
-# or
-yarn create next-app --example with-jest with-jest-app
-```
-
-## Run Jest Tests
-
-```bash
-npm test
-```
+%TODO%
